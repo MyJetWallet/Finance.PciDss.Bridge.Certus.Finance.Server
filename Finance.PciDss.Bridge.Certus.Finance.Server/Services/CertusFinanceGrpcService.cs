@@ -164,6 +164,21 @@ namespace Finance.PciDss.Bridge.Certus.Finance.Server.Services
             return default;
         }
 
+        public ValueTask<GetDepositStatusGrpcResponse> GetDepositStatusAsync(GetDepositStatusGrpcRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ValueTask<DecodeBridgeInfoGrpcResponse> DecodeInfoAsync(DecodeBridgeInfoGrpcRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ValueTask<MakeConfirmGrpcResponse> MakeDepositConfirmAsync(MakeConfirmGrpcRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
         private ValueTask SendMessageToAuditLogAsync(IPciDssInvoiceModel invoice, string message)
         {
             return _myCrmAuditLogGrpcService.Value.SaveAsync(new AuditLogEventGrpcModel

@@ -69,7 +69,7 @@ namespace Finance.PciDss.Bridge.Certus.Finance.Test
                 Ip = "*.*.*.*",
                 PsAmount = 8.21,
                 PsCurrency = "EUR",
-                Brand = "BrandName",
+                Brand = BrandName.Monfex,
                 BrandName = "***",
                 PhoneNumber = "+*******",
                 KycVerification = null,
