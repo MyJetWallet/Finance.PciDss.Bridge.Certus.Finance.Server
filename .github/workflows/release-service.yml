@@ -50,10 +50,10 @@ jobs:
       run: ls
 
     - name: Publish Service
-      run: dotnet publish ./${{ github.event.repository.name }}/${{ github.event.repository.name }}.csproj --configuration Release /p:AssemblyVersion=${{ steps.branches.outputs.value }} --output ./publish-api
+      run: dotnet publish ./${{ github.event.repository.name }}/${{ github.event.repository.name }}.csproj --configuration Release /p:AssemblyVersion=${{ steps.branches.outputs.value }} --output ${{ github.event.repository.name }}
 
     - name: Check Service dir
-      run: ls ./publish-api
+      run: ls ${{ github.event.repository.name }}
 
 
     - name: Publish image azure
