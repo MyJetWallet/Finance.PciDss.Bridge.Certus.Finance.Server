@@ -12,7 +12,7 @@
     <PackageReference Include="Finance.PciDss.Abstractions" Version="1.0.10" />
     <PackageReference Include="Finance.PciDss.PciDssBridgeGrpc" Version="1.0.22" />
     <PackageReference Include="Grpc.Net.Client" Version="2.47.0" />
-    <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
+    <PackageReference Include="protobuf-net.Grpc" Version="1.0.171" />
     <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.0.152" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
     <PackageReference Include="Serilog" Version="2.11.0" />
