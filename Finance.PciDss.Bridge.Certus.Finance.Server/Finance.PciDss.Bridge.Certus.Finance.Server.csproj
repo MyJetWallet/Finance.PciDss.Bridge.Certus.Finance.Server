@@ -19,7 +19,7 @@
     <PackageReference Include="SimpleTrading.Common" Version="1.0.32" />
     <PackageReference Include="SimpleTrading.ConvertService.Grpc" Version="1.0.3" />
     <PackageReference Include="SimpleTrading.GrpcTemplate" Version="1.0.4" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="SimpleTrading.SettingsReader" Version="1.1.0" />
     <PackageReference Include="Serilog.Sinks.Seq" Version="5.1.1" />
     <PackageReference Include="SimpleTrading.MyLogger" Version="2.0.0" />
